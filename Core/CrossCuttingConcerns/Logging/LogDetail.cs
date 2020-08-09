@@ -10,5 +10,8 @@ namespace Core.CrossCuttingConcerns.Logging
         public string MethodName { get; set; }
 
         public List<LogParameter> LogParameters { get; set; }
+        
     }
+
+
 }

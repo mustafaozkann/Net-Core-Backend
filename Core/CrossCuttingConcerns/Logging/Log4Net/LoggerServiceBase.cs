@@ -23,7 +23,6 @@ namespace Core.CrossCuttingConcerns.Logging.Log4Net
 
             _log = LogManager.GetLogger(loggerRepository.Name, name);
 
-
         }
 
         public bool IsInfoEnabled => _log.IsInfoEnabled;
